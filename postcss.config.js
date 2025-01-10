@@ -2,10 +2,8 @@
 // it will create an unexpected error: Invalid PostCSS Plugin found: [0]
 
 /** @type {import('postcss-load-config').Config} */
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}),
-  },
+export const plugins = {
+  tailwindcss: {},
+  autoprefixer: {},
+  ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}),
 };
