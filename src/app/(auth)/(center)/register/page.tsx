@@ -1,10 +1,9 @@
-import { CompanyRegistrationForm } from "./components/CompanyRegisterForm";
+import { CompanyRegistrationForm } from './components/CompanyRegisterForm';
 
 export default function RegisterPage() {
-    return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
-            <CompanyRegistrationForm />
-        </div>
-    )
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-gray-100">
+      <CompanyRegistrationForm />
+    </div>
+  );
 }
-
