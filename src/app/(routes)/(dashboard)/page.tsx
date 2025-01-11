@@ -1,10 +1,9 @@
-import React from 'react'
-import { UserHome } from './components/HomePage'
+import React from 'react';
+
+import { UserHome } from './components/HomePage';
 
 const page = () => {
-    return (
-        <UserHome />
-    )
-}
+  return <UserHome />;
+};
 
-export default page
+export default page;
